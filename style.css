@@ -179,11 +179,6 @@ footer {
     justify-content: center;
 }
 
-.footer-links {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-}
 
 .footer-links a {
     color: #d1d5db;
@@ -304,14 +299,6 @@ dd {
     color: #f9fafb;
 }
 
-.impressum-grid span:nth-child(odd) {
-    font-weight: bold;
-    color: #d1d5db;
-}
-
-.impressum-grid span:nth-child(even) {
-    color: #f9fafb;
-}
 
 .impressum-grid a {
     color: #60a5fa;
@@ -483,8 +470,11 @@ dd {
 .legal-container {
     max-width: 900px;
     margin: 4rem auto;
-    padding: 2rem;
+    padding: 2.5rem;
+    background: #1f2937;
+    border-radius: 16px;
     line-height: 1.8;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .legal-container h1 {
@@ -501,4 +491,8 @@ dd {
 .legal-container ul {
     padding-left: 1.5rem;
     margin-top: 1rem;
+}
+
+.legal-container a{
+    color: #60a5fa;
 }
