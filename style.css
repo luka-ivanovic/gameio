@@ -11,6 +11,18 @@ body {
     color: #f9fafb;
 }
 
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid #93c5fd;
+    outline-offset: 3px;
+}
+
+small {
+    font-size: 0.95rem;
+    color: #d1d5db;
+}
 
 .skip-link {
     position: absolute;
@@ -174,7 +186,7 @@ footer {
 }
 
 .footer-links a {
-    color: gray;
+    color: #d1d5db;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -274,11 +286,6 @@ footer {
     color: #f9fafb;
 }
 
-.subtitle {
-    color: #60a5fa;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-}
 
 .impressum-grid {
     display: grid;
@@ -331,7 +338,7 @@ footer {
 }
 
 .subtitle {
-    color: #9ca3af;
+    color: #d1d5db;
     margin-bottom: 3rem;
     max-width: 700px;
 }
