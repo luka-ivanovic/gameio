@@ -163,12 +163,26 @@ footer {
 
 .footer-links {
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-links a {
-    color: #3b82f6;
+    color: gray;
     margin: 0 10px;
     text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: #3b82f6;
+    text-decoration: underline;
 }
 
 #cookie-popup {
